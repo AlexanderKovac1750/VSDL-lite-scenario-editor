@@ -27,11 +27,11 @@ To build PWA from source code:
 This project was developed by authors of V2K as way to simplify user experience.
 
 Compared to V2K Some features were simplified and streamlined for better user experience and practical purposes:
-- dropdown menus compared to complex syntax
+- dropdown menus instead of complex syntax
 - the vulnerabilities require manual implementation
 - no software versioning logic is present
 
-This compromise allows the PWA to be fast and responsive and run inside the web browser.
+This compromises allow the PWA to be fast and responsive and run inside the web browser.
 However when more unique aspect of V2K are needed the PWA allows the user to save the scenario and further modify it.
 
 All scenario built in PWA are V2K compliant.
