@@ -1,0 +1,229 @@
+
+.Editing {
+  flex:1;
+  display: flex;
+  overflow-y: hidden;
+}
+
+.Explorer {
+  background-color: lightslategrey;
+  width: 25%;
+}
+
+.ExplorerWindow{
+    --factor: 40%;
+  height: calc(var(--factor));
+}
+
+.ExplorerWindow_rest {
+  height: calc(100% - var(--factor));
+}
+
+.ExplorerList{
+  padding: 0 10px 0 10px;
+  max-height:100%;
+  background-color:rgb(103, 119, 136);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  position: relative;
+}
+
+.Configurator {
+  width: 75%;
+  height:100%;
+}
+
+.ConfiguratorContainer {
+  padding: 0px;
+  height: 100%;
+  display:flex;
+  flex-direction: column;
+  overflow-y: hidden;
+}
+
+.ConfiguratorTA {
+  height: auto;
+}
+
+.ConfiguratorContainer2 {
+  display:flex;
+  flex-direction: row;
+  overflow: hidden;
+  align-items: baseline;
+  gap:10pt;
+}
+
+.ConfName{
+  flex: 0 0 auto;
+  min-height: 0;
+  overflow-wrap: anywhere;
+}
+
+.ConfProperties{
+  flex: 1 1 0;
+  min-height: 0;
+  padding:10pt;
+  display: flex;
+  flex-direction: column;
+  overflow-y: hidden;
+}
+
+.ConfList{
+  flex: 1 1 40%;
+  min-height: 0;
+  margin-top:5pt;
+
+  overflow-y: hidden;
+}
+
+.ConfiguratorContainer2_vert {
+  display:flex;
+  flex-direction: column;
+  height:100%;
+  padding-top:10pt;
+  padding-left:10px;
+  padding-right:10px;
+}
+
+.ConfiguratorText {
+  margin:0px;
+  padding-left: 10px;
+  text-align: left;
+  height:auto;
+}
+
+.BaseboxOptions{
+  white-space: pre;
+}
+
+.ExplorerHeader{
+  margin: 10px 0 0 0;
+  text-align: left;
+
+  display: flex;
+  justify-content: space-between;
+  align-items:center;
+
+  border-width: 0px;
+  border-bottom: 2px;
+  border-style:double;
+}
+.ExplorerHeaderButton{
+  border: none;
+  font-weight: bold;
+  font-size: large;
+  background-color: transparent;
+  padding-bottom: 0;
+  display: flex;
+  align-content: center;
+}
+
+.Scrollable {
+  margin-bottom: 10px;
+
+  overflow-y:auto;
+  overflow-x: hidden;
+  scrollbar-gutter: stable;
+}
+
+.Entry {
+  background-color:rgb(101, 137, 150);
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.EntryName {
+  margin: 0 0 0 0;
+  padding: 0 10px 0 0;
+
+  background-color: transparent;
+  border: none;
+  resize: none;
+  outline: none;
+  overflow-x: hidden;
+  text-wrap-mode: nowrap;
+
+  font-size: medium;
+  font-weight: 400;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', 
+  Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+.NoVertMargin{
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.HorizontalFlex{
+  display: flex;
+  flex-direction: row;
+  gap:10pt;
+}
+
+.HorizontalFlexCompact{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.OddEntry {
+  background-color:rgb(80, 110, 121);
+}
+
+.semiTransparent {
+  background-color:rgba(255, 255, 255, 0.0);
+  border: none;
+}
+
+.whiteBG {
+  background-color:white;
+}
+
+.hideYoverflow {
+  overflow-y: hidden;
+  flex: 1 1 100%;
+  height: 100%;
+}
+
+.vert100 {
+  height: 100%;;
+}
+
+.horz100 {
+  width: 100%;
+}
+
+.minwidth0 {
+  min-width: 0;
+}
+
+.noTextWrap {
+  flex: none;
+}
+
+.greenColor {
+  color: green;
+}
+
+.redColor{
+  color: red;
+}
+
+.border {
+  border: line;
+  border-width: 2pt;
+  border-style:inset;
+}
+
+.transparentBorder {
+  border-color: transparent;
+}
+
+.invertColor {
+  color:white;
+  background-color: darkslategray;
+}
