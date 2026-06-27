@@ -3,7 +3,8 @@ The PWA for editing VSDL-lite scenarios to be used with V2K or deployed directly
 
 The PWA is based on VSDL-to-KYPO(V2K) tool, the PWA is GUI for V2K which uses VSDL-lite scenario format to save and load scenarios.
 In the app these scenario can be editted without knowledge of VSDL-lite.
-the V2K github: https://github.com/AlexanderKovac1750/VSDL-to-KYPO.git
+
+V2K github: https://github.com/AlexanderKovac1750/VSDL-to-KYPO.git
 
 ## Deploying PWA
 To deploy the PWA fast:
