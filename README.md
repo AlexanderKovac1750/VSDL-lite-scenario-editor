@@ -15,7 +15,7 @@ To deploy the PWA fast:
 The PWA can be accessed locally or remotely through public address.
 The PWA is by default running in browser, but can be installed by clicking Download/Editor(this).
 
-Most browsers require https to allow PWA to be installed, with http, the PWA can usually only be installed locally.
+Most browsers require https to allow PWA to be locally installed. With http, the PWA can usually only be installed on local host.
 For more solid deployment of PWA with https other plaftorms like vercel or vite can be used.
 
 ## Building PWA
