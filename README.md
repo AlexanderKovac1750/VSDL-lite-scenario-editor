@@ -23,6 +23,7 @@ To build PWA from source code:
 1. clone the repository
 2. open command line in the repository directory
 3. run command: npm install
+4. run command: npm run build
 
 ## Relation to VSDL-to-KYPO(V2K)
 This project was developed by authors of V2K as way to simplify user experience.
