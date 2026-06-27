@@ -9,7 +9,7 @@ the V2K github: https://github.com/AlexanderKovac1750/VSDL-to-KYPO.git
 To deploy the PWA fast:
 1. clone the repository
 2. open command line in the repository directory
-3. run command: server -s build
+3. run command: serve -s build
 
 The PWA can be accessed locally or remotely through public address.
 The PWA is by default running in browser, but can be installed by clicking Download/Editor(this)
